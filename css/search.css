@@ -16,4 +16,24 @@
 }
 .search-body {
   width: 80%;
+  margin: auto;
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+  }
+  .search-box {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .search-body {
+    width: 95%;
+    margin: auto;
+  }
 }
