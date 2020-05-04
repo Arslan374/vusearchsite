@@ -116,10 +116,6 @@ button > svg {
     width: 100%;
   }
   .footer {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  ul > li {
-    padding-bottom: 0.5rem;
+    display: none;
   }
 }
