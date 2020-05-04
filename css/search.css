@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  display: flex;
+}
+.logo {
+  display: inline-block;
+  width: 150px;
+  margin: 15px 5px 5px 5px;
+}
+.search-box {
+  width: 60%;
+  margin: 35px 5px 5px 10px;
+}
+.search-body {
+  width: 80%;
+}
