@@ -7,8 +7,63 @@ body {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  font-size: 62.5%;
-  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h6 {
+  font-size: 12px;
+  line-height: 20px;
+}
+button {
+  display: inline-block;
+  margin: auto;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #79bf4c;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+button:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+.card-icon {
+  margin: auto;
+  display: block;
+  width: 100px;
 }
 .logo {
   display: inline-block;
@@ -20,6 +75,9 @@ body {
   margin: auto;
   margin-top: 10px;
 }
+.wraper {
+  width: 100%;
+}
 .featured {
   width: 50%;
   height: 60%;
@@ -28,7 +86,9 @@ body {
 .card {
   width: 40%;
   height: 80%;
+  max-width: 250px;
   margin: auto;
+  padding: 15px;
   background-color: rgb(245, 245, 245);
   border-radius: 10px;
   box-shadow: 2px 5px 9px #888888;
@@ -60,6 +120,9 @@ ul > li {
 li > a {
   text-decoration: none;
   color: black;
+}
+li > a:hover {
+  color: blue;
 }
 button > svg {
   width: 20px !important;
@@ -114,8 +177,25 @@ button > svg {
   }
   .background {
     width: 100%;
+    bottom: 30px;
   }
+
   .footer {
-    display: none;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  ul > li {
+    padding-bottom: 1rem;
+  }
+  .wraper {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0px;
+    z-index: -2;
+    background-color: rgb(195, 221, 221);
+  }
+  .gsc-input {
+    font-size: medium !important;
   }
 }
