@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="An easy way to find VU resources, Now search for Asingments, Quizzes, Handouts, Past Papers and more.."
+    />
+    <meta name="keywords" content="vu,assingments , quiz" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vu search | Assignments, Quizzes, Handouts, Papers</title>
     <link
@@ -24,31 +29,39 @@
       <div class="gcse-searchbox-only"></div>
     </div>
     <div class="featured">
-      <div class="card">
-        <img src="./icons8_ok_96px.png" class="card-icon" />
-        <h2>
-          Lorem ipsum dolor sit amet
-        </h2>
+      <div class="card" id="card1">
+        <img src="./lms.png" class="card-icon" />
+        <h1 style="margin: auto;">Notice</h1>
         <hr />
-        <h5>
-          consectetur adipisicing elit. Odio inventore in quidem provident,
-          repellendus deleniti culpa nesciunt autem nemo quas earum sapiente.
-        </h5>
+        <br />
+        <h3>
+          Course selection date extended
+        </h3>
+        <br />
+        <hr />
+        <br />
+        <span>
+          Dear Students,
+          <br>
+          <p>
+            It is hereby intimated that course selection due date for add/drop course(s) has been extended upto <b>, May 18, 2020</b>.
+          </p>
+        </span>
       </div>
-      <div class="card">
-        <h1>h1</h1>
+      <div class="card" id="card2">
+        <img src="./download.jpg" class="card-icon" />
+       
+        <br />
+        <h3>
+          An interview with Dr. Naveed A. Malik (Founder Rector, Virtual University of Pakistan)        </h3>
+        <br />
         <hr />
-        <h2>h2</h2>
-        <h3>h3</h3>
-        <hr />
-        <h4>h4</h4>
-        <h5>h5</h5>
-        <hr />
-        <h6>h6</h6>
-        <p>normal</p>
-
-        <hr />
-        <button>button</button>
+        <br />
+        <span>
+          Dr.  Naveed  A  Malik  is  a renowned personality  of  our  country. His  great contribution  in  launching  e-learning concept  in  Pakistan  in  the  form  of Virtual University of Pakistan has been acknowledged at all levels. Government of  Pakistan  has also awarded  him Sitara-e-Imtiaz in 2008 for his remarkable services for the nation.
+        </span>
+      </div>
+  
       </div>
     </div>
     <div>
@@ -57,11 +70,14 @@
 
     <div class="footer">
       <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Feedback</a></li>
+        <li><a href="./c/contact.html">Contact Us</a></li>
       </ul>
     </div>
     <div class="wraper"></div>
+
+    <script>
+      document.getElementById("card1").addEventListener("click", function(){ window.open('https://vulms.vu.edu.pk/NoticeBoard/NewsDetails.aspx?type=&NewsId=4274', '_blank');});
+      document.getElementById("card2").addEventListener("click", function(){ window.open('https://vulms.vu.edu.pk/NoticeBoard/NewsDetails.aspx?type=&NewsId=4273', '_blank');});
+    </script>
   </body>
 </html>
