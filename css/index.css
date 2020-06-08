@@ -11,32 +11,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-button {
-  display: inline-block;
-  margin: auto;
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: #79bf4c;
-  padding: 10px;
-  border-radius: 5px;
-  display: inline-block;
-  border: none;
-  transition: all 0.4s ease 0s;
-}
-button:hover {
-  background: #434343;
-  letter-spacing: 1px;
-  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
-  transition: all 0.4s ease 0s;
-}
-.card-icon {
-  margin: auto;
-  display: block;
-  width: 100px;
-}
 .logo {
   display: inline-block;
   width: 260px;
@@ -53,21 +27,36 @@ button:hover {
 .featured {
   width: 50%;
   height: 60%;
-  display: flex;
 }
 .card {
-  width: 40%;
-  height: 80%;
-  max-width: 250px;
+  width: 50%;
   margin: auto;
-  padding: 15px;
-  background-color: rgb(245, 245, 245);
-  border-radius: 10px;
-  box-shadow: 1px 3px 5px #afafaf;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgb(245, 245, 240);
+
+  border-radius: 20px;
+  box-shadow: 5px 5px 3px #888888bd;
+}
+.ext-card {
+  width: 100%;
+  margin: auto;
+}
+.ext-btn {
+  display: block;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 5px;
   cursor: pointer;
 }
-.card:hover {
-  box-shadow: 3px 8px 10px #afafaf;
+.ext-btn-img {
+  display: block;
+  margin: auto;
+  width: 200px;
+  box-shadow: none;
+}
+.ext-btn:hover {
+  background: #bfd2fa;
 }
 
 .background {
@@ -105,30 +94,7 @@ button > svg {
   font-size: larger !important;
 }
 
-@media only screen and (max-width: 992px) {
-  .logo {
-    width: 200px;
-  }
-  .featured {
-    width: 100%;
-  }
-  .card {
-    opacity: 0.92;
-  }
-  .background {
-    width: 80%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .footer {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  ul > li {
-    padding-bottom: 0.5rem;
-  }
-}
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   .logo {
     display: block;
     margin-left: auto;

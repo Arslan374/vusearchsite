@@ -14,7 +14,7 @@
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="./img/icon.png" type="image/png" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/index.min.css" />
   </head>
   <body>
     <div>
@@ -29,37 +29,11 @@
       <div class="gcse-searchbox-only"></div>
     </div>
     <div class="featured">
-      <div class="card" id="card1">
-        <img src="./lms.png" class="card-icon" />
-        <h1 style="margin: auto;">Notice</h1>
-        <hr />
-        <br />
-        <h3>
-          Course selection date extended
-        </h3>
-        <br />
-        <hr />
-        <br />
-        <span>
-          Dear Students,
-          <br>
-          <p>
-            It is hereby intimated that course selection due date for add/drop course(s) has been extended upto <b>, May 18, 2020</b>.
-          </p>
-        </span>
-      </div>
-      <div class="card" id="card2">
-        <img src="./download.jpg" class="card-icon" />
-       
-        <br />
-        <h3>
-          An interview with Dr. Naveed A. Malik (Founder Rector, Virtual University of Pakistan)        </h3>
-        <br />
-        <hr />
-        <br />
-        <span>
-          Dr.  Naveed  A  Malik  is  a renowned personality  of  our  country. His  great contribution  in  launching  e-learning concept  in  Pakistan  in  the  form  of Virtual University of Pakistan has been acknowledged at all levels. Government of  Pakistan  has also awarded  him Sitara-e-Imtiaz in 2008 for his remarkable services for the nation.
-        </span>
+      <div class="card">
+        <img src="./img/Group 30.png" class="ext-card" />
+          <button class="ext-btn" id="add-btn">
+          <img src="./img/addtochrome.png" class="ext-btn-img" />
+        </button>
       </div>
   
       </div>
@@ -76,8 +50,7 @@
     <div class="wraper"></div>
 
     <script>
-      document.getElementById("card1").addEventListener("click", function(){ window.open('https://vulms.vu.edu.pk/NoticeBoard/NewsDetails.aspx?type=&NewsId=4274', '_blank');});
-      document.getElementById("card2").addEventListener("click", function(){ window.open('https://vulms.vu.edu.pk/NoticeBoard/NewsDetails.aspx?type=&NewsId=4273', '_blank');});
+      document.getElementById("add-btn").addEventListener("click", function(){ window.open('https://chrome.google.com/webstore/detail/vu-toolkit/knidbjbkemkafecmihipdlmejidnnemd', '_blank');});
     </script>
   </body>
 </html>
